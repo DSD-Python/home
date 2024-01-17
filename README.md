@@ -3,17 +3,10 @@ Home page for the DSD Course and the DSD-Python organization
 
 Everything we do in this organization will be an experiment! 
 
-The file called ids.psv is pipe delimited. I tried naming this ids.csv but github barked at me because the file had no commas. So ".psv" it is. The file has these fields: 
+The file ids.psv is a leftover from an experiment in the first course. The extension ".psv" suggests "pipe separated values." It is like "comma separated values" but with the pipe (or vertical line) as the separator. 
 
-- publickey - if you add a line to this file and don't know your public key, enter TBA. Avoid unnecessary spaces.   
-- github-id - your github id. Avoid unnecessary spaces.   
-- fullname - your full name. Spaces allowed but please avoid trailing and leading spaces. 
-- info - Use this only if it is necessary to uniquely identify yourself. For example, if there are two people named John William Smith, provide something else such as your BC email that will make it possible to know who you are. 
+The file names.txt is the one you should edit. To do this, click on the pencil in the web view. It will tell you that you can't edit the file so you will need to 'fork' the repository. Go ahead, edit the file to add your github ide after the pipe that follows your name. When you are done, "Commit your change" which is the same as saving. Then follow the instructions for making a pull request. 
 
-Even if you are not yet a member of the DSD-Python organization, you should be able to edit the ids.psv file by following this procedure: 
-
-- Click on the "pencil" icon. It will tell you that you need to "fork the repository" which means create your own local copy of it.
-- Create a fork. Then in your fork, edit the file by adding a single line for yourself. Please do so now so we have a central record for github-ids. Just use TBA for your public key. You'll add it later.
-- Then create a "pull request". It will ask the course administrators to approve your changes to the file.
+Let's see if git can merge togehter a bunch of edits to the same file by different people if those edits are on different lines of the file. 
 
 
